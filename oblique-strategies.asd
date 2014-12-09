@@ -1,10 +1,9 @@
 ;;;; oblique-strategies.asd
 
 (asdf:defsystem #:oblique-strategies
-  :description "Describe oblique-strategies here"
-  :author "Your Name <your.name@example.com>"
-  :license "Specify license here"
+  :description "Common Lisp bindings for Oblique-Strategires-as-a-Service"
+  :author "Gaelan D'costa <gdcosta@gmail.com>"
+  :license "MIT"
   :serial t
   :components ((:file "package")
                (:file "oblique-strategies")))
-
